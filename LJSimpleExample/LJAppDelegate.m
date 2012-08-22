@@ -25,7 +25,7 @@
     [self.window makeKeyAndVisible];
     
     
-    [LoopJoyStore initWithAPIKey:@"iqEqGmZNfgtLFehwfry" forEnv:LJ_ENV_LIVE];
+    
     
     return YES;
     
