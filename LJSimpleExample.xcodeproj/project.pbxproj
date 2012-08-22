@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41AF0B0615E4C50300373E17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF0B0515E4C50300373E17 /* UIKit.framework */; };
+		41AF0B0815E4C50300373E17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF0B0715E4C50300373E17 /* Foundation.framework */; };
+		41AF0B1015E4C50300373E17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41AF0B0E15E4C50300373E17 /* InfoPlist.strings */; };
+		41AF0B1215E4C50300373E17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF0B1115E4C50300373E17 /* main.m */; };
+		41AF0B1615E4C50300373E17 /* LJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF0B1515E4C50300373E17 /* LJAppDelegate.m */; };
+		41AF0B2015E4C55A00373E17 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF0B1F15E4C55A00373E17 /* libsqlite3.0.dylib */; };
+		41AF0B2215E4C56800373E17 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF0B2115E4C56800373E17 /* libz.1.2.5.dylib */; };
+		41AF0B2415E4C57100373E17 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF0B2315E4C57100373E17 /* libxml2.dylib */; };
+		41AF0B2615E4C5A200373E17 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF0B2515E4C5A200373E17 /* Security.framework */; };
+		41AF0B2815E4C5AD00373E17 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF0B2715E4C5AD00373E17 /* CFNetwork.framework */; };
+		41AF0B2915E4C75700373E17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF0B0915E4C50300373E17 /* CoreGraphics.framework */; };
+		41AF0B2C15E4C82F00373E17 /* LJMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF0B2B15E4C82F00373E17 /* LJMainViewController.m */; };
+		41AF0B6015E4FC8000373E17 /* libLJStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF0B5F15E4FC8000373E17 /* libLJStore.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41AF0B0115E4C50300373E17 /* LJSimpleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJSimpleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AF0B0515E4C50300373E17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		41AF0B0715E4C50300373E17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41AF0B0915E4C50300373E17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41AF0B0D15E4C50300373E17 /* LJSimpleExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LJSimpleExample-Info.plist"; sourceTree = "<group>"; };
+		41AF0B0F15E4C50300373E17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41AF0B1115E4C50300373E17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41AF0B1315E4C50300373E17 /* LJSimpleExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LJSimpleExample-Prefix.pch"; sourceTree = "<group>"; };
+		41AF0B1415E4C50300373E17 /* LJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJAppDelegate.h; sourceTree = "<group>"; };
+		41AF0B1515E4C50300373E17 /* LJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJAppDelegate.m; sourceTree = "<group>"; };
+		41AF0B1F15E4C55A00373E17 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		41AF0B2115E4C56800373E17 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		41AF0B2315E4C57100373E17 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		41AF0B2515E4C5A200373E17 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		41AF0B2715E4C5AD00373E17 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		41AF0B2A15E4C82F00373E17 /* LJMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJMainViewController.h; sourceTree = "<group>"; };
+		41AF0B2B15E4C82F00373E17 /* LJMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJMainViewController.m; sourceTree = "<group>"; };
+		41AF0B4E15E4EA7700373E17 /* LoopJoyStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopJoyStore.h; sourceTree = "<group>"; };
+		41AF0B5F15E4FC8000373E17 /* libLJStore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLJStore.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41AF0AFE15E4C50300373E17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AF0B2415E4C57100373E17 /* libxml2.dylib in Frameworks */,
+				41AF0B2215E4C56800373E17 /* libz.1.2.5.dylib in Frameworks */,
+				41AF0B2015E4C55A00373E17 /* libsqlite3.0.dylib in Frameworks */,
+				41AF0B0615E4C50300373E17 /* UIKit.framework in Frameworks */,
+				41AF0B2615E4C5A200373E17 /* Security.framework in Frameworks */,
+				41AF0B2815E4C5AD00373E17 /* CFNetwork.framework in Frameworks */,
+				41AF0B0815E4C50300373E17 /* Foundation.framework in Frameworks */,
+				41AF0B2915E4C75700373E17 /* CoreGraphics.framework in Frameworks */,
+				41AF0B6015E4FC8000373E17 /* libLJStore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41AF0AF615E4C50300373E17 = {
+			isa = PBXGroup;
+			children = (
+				41AF0B0B15E4C50300373E17 /* LJSimpleExample */,
+				41AF0B0415E4C50300373E17 /* Frameworks */,
+				41AF0B0215E4C50300373E17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41AF0B0215E4C50300373E17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41AF0B0115E4C50300373E17 /* LJSimpleExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41AF0B0415E4C50300373E17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41AF0B5F15E4FC8000373E17 /* libLJStore.a */,
+				41AF0B2315E4C57100373E17 /* libxml2.dylib */,
+				41AF0B2115E4C56800373E17 /* libz.1.2.5.dylib */,
+				41AF0B1F15E4C55A00373E17 /* libsqlite3.0.dylib */,
+				41AF0B2715E4C5AD00373E17 /* CFNetwork.framework */,
+				41AF0B2515E4C5A200373E17 /* Security.framework */,
+				41AF0B0515E4C50300373E17 /* UIKit.framework */,
+				41AF0B0715E4C50300373E17 /* Foundation.framework */,
+				41AF0B0915E4C50300373E17 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41AF0B0B15E4C50300373E17 /* LJSimpleExample */ = {
+			isa = PBXGroup;
+			children = (
+				41AF0B1415E4C50300373E17 /* LJAppDelegate.h */,
+				41AF0B1515E4C50300373E17 /* LJAppDelegate.m */,
+				41AF0B2A15E4C82F00373E17 /* LJMainViewController.h */,
+				41AF0B2B15E4C82F00373E17 /* LJMainViewController.m */,
+				41AF0B4E15E4EA7700373E17 /* LoopJoyStore.h */,
+				41AF0B0C15E4C50300373E17 /* Supporting Files */,
+			);
+			path = LJSimpleExample;
+			sourceTree = "<group>";
+		};
+		41AF0B0C15E4C50300373E17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41AF0B0D15E4C50300373E17 /* LJSimpleExample-Info.plist */,
+				41AF0B0E15E4C50300373E17 /* InfoPlist.strings */,
+				41AF0B1115E4C50300373E17 /* main.m */,
+				41AF0B1315E4C50300373E17 /* LJSimpleExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41AF0B0015E4C50300373E17 /* LJSimpleExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AF0B1915E4C50300373E17 /* Build configuration list for PBXNativeTarget "LJSimpleExample" */;
+			buildPhases = (
+				41AF0AFD15E4C50300373E17 /* Sources */,
+				41AF0AFE15E4C50300373E17 /* Frameworks */,
+				41AF0AFF15E4C50300373E17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJSimpleExample;
+			productName = LJSimpleExample;
+			productReference = 41AF0B0115E4C50300373E17 /* LJSimpleExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41AF0AF815E4C50300373E17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LJ;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 41AF0AFB15E4C50300373E17 /* Build configuration list for PBXProject "LJSimpleExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 41AF0AF615E4C50300373E17;
+			productRefGroup = 41AF0B0215E4C50300373E17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41AF0B0015E4C50300373E17 /* LJSimpleExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41AF0AFF15E4C50300373E17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AF0B1015E4C50300373E17 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41AF0AFD15E4C50300373E17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AF0B1215E4C50300373E17 /* main.m in Sources */,
+				41AF0B1615E4C50300373E17 /* LJAppDelegate.m in Sources */,
+				41AF0B2C15E4C82F00373E17 /* LJMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41AF0B0E15E4C50300373E17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41AF0B0F15E4C50300373E17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41AF0B1715E4C50300373E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"-load_all",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41AF0B1815E4C50300373E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-load_all",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41AF0B1A15E4C50300373E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LJSimpleExample/LJSimpleExample-Prefix.pch";
+				INFOPLIST_FILE = "LJSimpleExample/LJSimpleExample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/LJSimpleExample\"",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/LJStore-aaliwtnrshznlefsqeolsfxuiidp/Build/Products/Debug-iphoneos\"",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		41AF0B1B15E4C50300373E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LJSimpleExample/LJSimpleExample-Prefix.pch";
+				INFOPLIST_FILE = "LJSimpleExample/LJSimpleExample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/LJSimpleExample\"",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/LJStore-aaliwtnrshznlefsqeolsfxuiidp/Build/Products/Debug-iphoneos\"",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41AF0AFB15E4C50300373E17 /* Build configuration list for PBXProject "LJSimpleExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AF0B1715E4C50300373E17 /* Debug */,
+				41AF0B1815E4C50300373E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41AF0B1915E4C50300373E17 /* Build configuration list for PBXNativeTarget "LJSimpleExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AF0B1A15E4C50300373E17 /* Debug */,
+				41AF0B1B15E4C50300373E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41AF0AF815E4C50300373E17 /* Project object */;
+}
