@@ -5,10 +5,12 @@ LJSimpleExample
 <br/>
 -- Installing the Library.
 Drag and drop LoopJoyStore.h and libLJStore.a files into your projects library.
-![See readme-1](/raw/master/readme/readme-1.png)
+<br/>
+![See readme-1](StlTenny/LJSimpleExample/raw/master/readme/readme-1.png)
 
 Make sure the settings for copy items into destination group folder and add to build targets are checked.
-![See readme-2](/raw/master/readme/readme-2.png)
+<br/>
+![See readme-2](StlTenny/LJSimpleExample/raw/master/readme/readme-2.png)
 
 Under your targets build phases, add the following frameworks and libraries.
 
@@ -20,12 +22,14 @@ Under your targets build phases, add the following frameworks and libraries.
 	-libxml2.dylib 
 	-libz.1.2.5.dylib 
 	-libsqlite3.0.dylib
-![See readme-3](/raw/master/readme/readme-3.png)
+<br/>
+![See readme-3](StlTenny/LJSimpleExample/raw/master/readme/readme-3.png)
 
 Finally, under build settings under your target page, add the following flags under Other linker flags
 –all_load –ObjC
 
-![See readme-4](/raw/master/readme/readme-4.png)
+<br/>
+![See readme-4](StlTenny/LJSimpleExample/raw/master/readme/readme-4.png)
 
 Compile and you’re good to go!
 <br/><br/>
