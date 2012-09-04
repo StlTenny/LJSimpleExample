@@ -23,13 +23,13 @@ Under your targets build phases, add the following frameworks and libraries.
 	-libz.1.2.5.dylib 
 	-libsqlite3.0.dylib
 <br/>
-![See readme-3](raw/masterreadme/readme-3.png)
+![See readme-3](raw/master/readme/readme-3.png)
 
 Finally, under build settings under your target page, add the following flags under Other linker flags
 –all_load –ObjC
 
 <br/>
-![See readme-4](raw/masterreadme/readme-4.png)
+![See readme-4](raw/master/readme/readme-4.png)
 
 Compile and you’re good to go!
 <br/><br/>
