@@ -1,9 +1,13 @@
 LJSimpleExample
 ===============
 
-<b>LoopJoy Documentation and Sample Implementation<b>
+<b>LoopJoy Documentation and Sample Implementation</b>
 <br/>
--- Installing the Library.
+
+<b> Note: When running the attached demo project in Xcode you will need to replace the Api Key, and Item numbers with those Provided
+	<br/> Otherwise you'll see the dreaded No connectivity error</b>
+	
+<b>-- Installing the Library.    
 Drag and drop LoopJoyStore.h and libLJStore.a files into your projects library.
 <br/>
 ![See readme-1](raw/master/readme/readme-1.png)
