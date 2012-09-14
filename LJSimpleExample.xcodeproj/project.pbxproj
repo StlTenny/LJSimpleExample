@@ -23,8 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4128BAD215F68CE600851EDD /* LoopJoyStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopJoyStore.h; sourceTree = "<group>"; };
 		4133AD871603CE8F0074FBE1 /* libLJStore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLJStore.a; sourceTree = "<group>"; };
+		4133AD891603CF3B0074FBE1 /* LoopJoyStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopJoyStore.h; sourceTree = "<group>"; };
 		41AF0B0115E4C50300373E17 /* LJSimpleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJSimpleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41AF0B0515E4C50300373E17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		41AF0B0715E4C50300373E17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -103,7 +103,7 @@
 				41AF0B1515E4C50300373E17 /* LJAppDelegate.m */,
 				41AF0B2A15E4C82F00373E17 /* LJMainViewController.h */,
 				41AF0B2B15E4C82F00373E17 /* LJMainViewController.m */,
-				4128BAD215F68CE600851EDD /* LoopJoyStore.h */,
+				4133AD891603CF3B0074FBE1 /* LoopJoyStore.h */,
 				4133AD871603CE8F0074FBE1 /* libLJStore.a */,
 				41AF0B0C15E4C50300373E17 /* Supporting Files */,
 			);
