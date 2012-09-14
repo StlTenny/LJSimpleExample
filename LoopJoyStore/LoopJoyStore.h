@@ -9,11 +9,12 @@
 #import <UIKit/UIKit.h>
 @class LJItem;
 
-@protocol LoopJoyStoreDelegate
+@protocol LoopJoyStoreDelegate <NSObject>
 @required
 @optional
 -(void)unsuccessfulPurchase;
 -(void)successfulPurchase;
+-(void)loadComplete;
 @end
 
 typedef enum{
@@ -48,23 +49,34 @@ typedef enum{
 } LJModalOrientation;
 
 @interface LoopJoyStore : NSObject <NSURLConnectionDelegate,UIAlertViewDelegate>{
+    
+    @private
+    id<LoopJoyStoreDelegate> delegate;
+    SEL *_loadComplete;
+    
+    
     NSString *_apiKey;
     NSString *_merchantName;
     NSString *_developerID;
-    
-    @private
     LJEnvironmentType _currentEnv;
     LJDeviceType _deviceType;
     LJItem *_currentItem;
     LJModalOrientation _currentOrientation;
-        
+    UIImage *_defaultBackgroundImage;
 }
 
 +(LoopJoyStore *)sharedInstance;
-+(void)initWithAPIKey:(NSString *)devID forEnv:(LJEnvironmentType)envType;
++(void)initWithAPIKey:(NSString *)apiKey forEnv:(LJEnvironmentType)envType;
++(void)initWithAPIKey:(NSString *)apiKey forEnv:(LJEnvironmentType)envType withTarget:(const id<LoopJoyStoreDelegate>)target;
+
 -(NSString *)getDeveloperID;
 -(NSString *)getMerchantName;
+-(UIImage *)getDefaultBG;
+-(UIImage *)getImageForItem:(int)itemID;
+-(NSString *)getDisplayTextForItem:(int)itemID;
+-(NSString *)getSecondaryTextForItem:(int)itemID;
 -(UIButton *)getLJButtonForItem:(int)itemID withButtonType:(LJButtonType)buttonType;
 -(UIAlertView *)getLJAlertForItem:(int)itemID withTitle:(NSString *)title andMessage:(NSString *)message isCancelable:(BOOL)cancelable;
+
 -(void)showModalForItem:(int)itemID;
 @end

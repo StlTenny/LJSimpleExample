@@ -66,7 +66,7 @@ typedef enum{
 }
 
 +(LoopJoyStore *)sharedInstance;
-+(void)initWithAPIKey:(NSString *)devID forEnv:(LJEnvironmentType)envType;
++(void)initWithAPIKey:(NSString *)apiKey forEnv:(LJEnvironmentType)envType;
 +(void)initWithAPIKey:(NSString *)apiKey forEnv:(LJEnvironmentType)envType withTarget:(const id<LoopJoyStoreDelegate>)target;
 
 -(NSString *)getDeveloperID;
