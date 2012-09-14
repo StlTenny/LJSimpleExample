@@ -37,10 +37,10 @@ static LJMainViewController *_sharedController = nil;
     
     UIButton *buyNow;
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad){
-        buyNow = [[LoopJoyStore sharedInstance] getLJButtonForItem:99 withButtonType:LJ_BUTTON_IPAD_RED];
+        buyNow = [[LoopJoyStore sharedInstance] getLJButtonForItem:54 withButtonType:LJ_BUTTON_IPAD_RED];
     }
     else{
-        buyNow = [[LoopJoyStore sharedInstance] getLJButtonForItem:99 withButtonType:LJ_BUTTON_IPHONE_YELLOW];
+        buyNow = [[LoopJoyStore sharedInstance] getLJButtonForItem:54 withButtonType:LJ_BUTTON_IPHONE_YELLOW];
     }
     
     //Can be used to move the placement of the Loopjoy Button
