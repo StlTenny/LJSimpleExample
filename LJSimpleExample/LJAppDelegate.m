@@ -3,16 +3,17 @@
 //  LJSimpleExample
 //
 //  Created by Tennyson Hinds on 8/22/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 LoopJoy Inc. All rights reserved.
 //
 
 #import "LJAppDelegate.h"
 #import "LJMainViewController.h"
-#import "LoopJoyStore.h"
 
 @implementation LJAppDelegate
 
 @synthesize window = _window;
+
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -26,9 +27,14 @@
     
     
     //Make sure to change api key to provided key
-    [LoopJoyStore initWithAPIKey:@"My-Api-Key" forEnv:LJ_ENV_SANDBOX];
+    [LoopJoyStore initWithAPIKey:@"My-Api-Key" forEnv:LJ_ENV_SANDBOX withTarget:self];
     return YES;
     
+}
+
+//LoopJoyStore Delegate method load complete.
+- (void)loadComplete{
+    NSLog(@"Load Complete");
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

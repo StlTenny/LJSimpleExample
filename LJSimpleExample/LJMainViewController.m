@@ -3,11 +3,10 @@
 //  LJSimpleExample
 //
 //  Created by Tennyson Hinds on 8/22/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 LoopJoy Inc. All rights reserved.
 //
 
 #import "LJMainViewController.h"
-#import "LoopJoyStore.h"
 
 @interface LJMainViewController ()
 
@@ -24,6 +23,7 @@ static LJMainViewController *_sharedController = nil;
     
     return _sharedController;
 }
+
 
 - (void)loadView{
     [super loadView];

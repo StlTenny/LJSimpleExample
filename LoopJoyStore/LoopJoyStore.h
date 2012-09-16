@@ -3,7 +3,7 @@
 //  Store
 //
 //  Created by Tennyson Hinds on 8/6/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 LoopJoy Inc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -12,8 +12,6 @@
 @protocol LoopJoyStoreDelegate <NSObject>
 @required
 @optional
--(void)unsuccessfulPurchase;
--(void)successfulPurchase;
 -(void)loadComplete;
 @end
 
@@ -51,9 +49,6 @@ typedef enum{
 @interface LoopJoyStore : NSObject <NSURLConnectionDelegate,UIAlertViewDelegate>{
     
     @private
-    id<LoopJoyStoreDelegate> delegate;
-    SEL *_loadComplete;
-    
     
     NSString *_apiKey;
     NSString *_merchantName;
@@ -65,8 +60,9 @@ typedef enum{
     UIImage *_defaultBackgroundImage;
 }
 
+
 +(LoopJoyStore *)sharedInstance;
-+(void)initWithAPIKey:(NSString *)apiKey forEnv:(LJEnvironmentType)envType;
++(void)initWithAPIKey:(NSString *)devID forEnv:(LJEnvironmentType)envType;
 +(void)initWithAPIKey:(NSString *)apiKey forEnv:(LJEnvironmentType)envType withTarget:(const id<LoopJoyStoreDelegate>)target;
 
 -(NSString *)getDeveloperID;
@@ -77,6 +73,6 @@ typedef enum{
 -(NSString *)getSecondaryTextForItem:(int)itemID;
 -(UIButton *)getLJButtonForItem:(int)itemID withButtonType:(LJButtonType)buttonType;
 -(UIAlertView *)getLJAlertForItem:(int)itemID withTitle:(NSString *)title andMessage:(NSString *)message isCancelable:(BOOL)cancelable;
-
 -(void)showModalForItem:(int)itemID;
+
 @end
