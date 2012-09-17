@@ -27,7 +27,7 @@
     
     
     //Make sure to change api key to provided key
-    [LoopJoyStore initWithAPIKey:@"My-Api-Key" forEnv:LJ_ENV_SANDBOX withTarget:self];
+    [LoopJoyStore initWithAPIKey:@"iqEqGmZNfgtLFehwfry" forEnv:LJ_ENV_SANDBOX withTarget:self];
     return YES;
     
 }

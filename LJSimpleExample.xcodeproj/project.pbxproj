@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		413656AE1606566D0056BCE2 /* libLJStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 413656AC1606566D0056BCE2 /* libLJStore.a */; };
+		4151A48E160767B3004706C9 /* libLJStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4151A48D160767B3004706C9 /* libLJStore.a */; };
 		41AF0B0615E4C50300373E17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF0B0515E4C50300373E17 /* UIKit.framework */; };
 		41AF0B0815E4C50300373E17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF0B0715E4C50300373E17 /* Foundation.framework */; };
 		41AF0B1015E4C50300373E17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41AF0B0E15E4C50300373E17 /* InfoPlist.strings */; };
@@ -23,8 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		413656AC1606566D0056BCE2 /* libLJStore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLJStore.a; path = LJSimpleExample/libLJStore.a; sourceTree = "<group>"; };
 		413656AD1606566D0056BCE2 /* LoopJoyStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopJoyStore.h; sourceTree = "<group>"; };
+		4151A48D160767B3004706C9 /* libLJStore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLJStore.a; sourceTree = "<group>"; };
 		41AF0B0115E4C50300373E17 /* LJSimpleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJSimpleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41AF0B0515E4C50300373E17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		41AF0B0715E4C50300373E17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,7 +57,7 @@
 				41AF0B2815E4C5AD00373E17 /* CFNetwork.framework in Frameworks */,
 				41AF0B0815E4C50300373E17 /* Foundation.framework in Frameworks */,
 				41AF0B2915E4C75700373E17 /* CoreGraphics.framework in Frameworks */,
-				413656AE1606566D0056BCE2 /* libLJStore.a in Frameworks */,
+				4151A48E160767B3004706C9 /* libLJStore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +84,6 @@
 		41AF0B0415E4C50300373E17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				413656AC1606566D0056BCE2 /* libLJStore.a */,
 				41AF0B2315E4C57100373E17 /* libxml2.dylib */,
 				41AF0B2115E4C56800373E17 /* libz.1.2.5.dylib */,
 				41AF0B1F15E4C55A00373E17 /* libsqlite3.0.dylib */,
@@ -105,6 +104,7 @@
 				41AF0B2A15E4C82F00373E17 /* LJMainViewController.h */,
 				41AF0B2B15E4C82F00373E17 /* LJMainViewController.m */,
 				413656AD1606566D0056BCE2 /* LoopJoyStore.h */,
+				4151A48D160767B3004706C9 /* libLJStore.a */,
 				41AF0B0C15E4C50300373E17 /* Supporting Files */,
 			);
 			path = LJSimpleExample;

@@ -59,7 +59,7 @@ static LJMainViewController *_sharedController = nil;
     [self.view addSubview:containerView];
     
     //Make sure to change item number to one provided
-    UIAlertView *ljAlert = [[LoopJoyStore sharedInstance] getLJAlertForItem:99
+    UIAlertView *ljAlert = [[LoopJoyStore sharedInstance] getLJAlertForItem:54
                                                                   withTitle:@"You just unlocked a new hat" 
                                                                  andMessage:@"You're such a good sport" 
                                                                isCancelable:FALSE];
