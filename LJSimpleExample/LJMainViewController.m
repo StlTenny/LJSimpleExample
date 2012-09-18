@@ -24,7 +24,6 @@ static LJMainViewController *_sharedController = nil;
     return _sharedController;
 }
 
-
 - (void)loadView{
     [super loadView];
     
@@ -37,20 +36,21 @@ static LJMainViewController *_sharedController = nil;
     
     UIButton *buyNow;
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad){
-        buyNow = [[LoopJoyStore sharedInstance] getLJButtonForItem:54 withButtonType:LJ_BUTTON_IPAD_RED];
+        buyNow = [[LoopJoyStore sharedInstance] getLJButtonForItem:99 withButtonType:LJ_BUTTON_IPAD_RED];
     }
     else{
-        buyNow = [[LoopJoyStore sharedInstance] getLJButtonForItem:54 withButtonType:LJ_BUTTON_IPHONE_YELLOW];
+        buyNow = [[LoopJoyStore sharedInstance] getLJButtonForItem:99 withButtonType:LJ_BUTTON_IPHONE_BLUE];
     }
-    
+
     //Can be used to move the placement of the Loopjoy Button
     //CGRect frame = buyNow.frame;
-    //frame.origin.x = 50;
-    //frame.origin.y = 50;
+    //frame.origin.x = 200;
+    //frame.origin.y = 360;
     //buyNow.frame = frame;
     
-    [containerView addSubview:buyNow];
     
+    [containerView addSubview:buyNow];
+
 }
 
 - (void)viewDidLoad
@@ -59,12 +59,20 @@ static LJMainViewController *_sharedController = nil;
     [self.view addSubview:containerView];
     
     //Make sure to change item number to one provided
-    UIAlertView *ljAlert = [[LoopJoyStore sharedInstance] getLJAlertForItem:54
+    UIAlertView *ljAlert = [[LoopJoyStore sharedInstance] getLJAlertForItem:55
                                                                   withTitle:@"You just unlocked a new hat" 
                                                                  andMessage:@"You're such a good sport" 
                                                                isCancelable:FALSE];
     [ljAlert show];
+    
+    
 }
+-(void)loadComplete{
+    //Take any action once the LoopJoy library is loaded.
+    //UIImageView *imageView = [[UIImageView alloc] initWithImage:[[LoopJoyStore sharedInstance] getImageForItem:99]];
+    //imageView.frame = CGRectMake(50,50,100,100);
+}
+
 
 
 - (void)viewDidUnload

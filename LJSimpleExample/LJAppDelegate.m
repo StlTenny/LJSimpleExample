@@ -27,15 +27,12 @@
     
     
     //Make sure to change api key to provided key
-    [LoopJoyStore initWithAPIKey:@"iqEqGmZNfgtLFehwfry" forEnv:LJ_ENV_SANDBOX withTarget:self];
+    [LoopJoyStore initWithAPIKey:@"My-Api-Key" forEnv:LJ_ENV_SANDBOX withTarget:[LJMainViewController sharedController]];
     return YES;
     
 }
 
-//LoopJoyStore Delegate method load complete.
-- (void)loadComplete{
-    NSLog(@"Load Complete");
-}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
