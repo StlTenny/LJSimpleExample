@@ -60,6 +60,8 @@ typedef enum{
     UIImage *_defaultBackgroundImage;
 }
 
+@property(nonatomic,retain) NSString *_LJ_BASE_URL;
+
 
 +(LoopJoyStore *)sharedInstance;
 +(void)initWithAPIKey:(NSString *)devID forEnv:(LJEnvironmentType)envType;
