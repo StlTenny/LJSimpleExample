@@ -36,7 +36,7 @@ static LJMainViewController *_sharedController = nil;
     
     UIButton *buyNow;
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad){
-        buyNow = [[LoopJoyStore sharedInstance] getLJButtonForItem:55 withButtonType:LJ_BUTTON_IPAD_RED];
+        buyNow = [[LoopJoyStore sharedInstance] getLJButtonForItem:54 withButtonType:LJ_BUTTON_IPAD_RED];
     }
     else{
         buyNow = [[LoopJoyStore sharedInstance] getLJButtonForItem:54 withButtonType:LJ_BUTTON_IPHONE_BLUE];
