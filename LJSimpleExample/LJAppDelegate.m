@@ -27,7 +27,7 @@
     
     
     //Make sure to change api key to provided key
-    [LoopJoyStore initWithAPIKey:@"iqEqGmZNfgtLFehwfry" forEnv:LJ_ENV_LIVE withTarget:[LJMainViewController sharedController]];
+    [LoopJoyStore initWithAPIKey:@"iqEqGmZNfgtLFehwfry" forEnv:LJ_ENV_BETA_SANDBOX withTarget:[LJMainViewController sharedController]];
     return YES;
     
 }
