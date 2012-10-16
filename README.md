@@ -42,7 +42,9 @@ Compile and you’re good to go!
 --  Implementing the Library
 <br/>
 To implement the library there are only a few simple calls. In your application load method initialize the library with
-	[LoopJoyStore initWithAPIKey:@"MY_API_KEY_HERE" forEnv:LJ_ENV_BETA]; //Note – Paypal transactions are still live in both Beta and Live Environments.
+
+	[LoopJoyStore initWithAPIKey:@"MY_API_KEY_HERE" forEnv:LJ_ENV_BETA]; 
+	//Note – Paypal transactions are still live in both Beta and Live Environments.
 
 To get a LoopJoy Button:
 	UIButton *buyNow = [[LoopJoyStore sharedInstance] getLJButtonForItem:18 withButtonType:LJ_BUTTON_IPAD_RED];
@@ -56,14 +58,17 @@ To Reposition a LoopJoy Button: Simply edit the frame attribute of the UIButton
 
 To Show a LoopJoy Button:
 	[containerView addSubview:buyNow];
+
 To Get a LoopJoy Alert;
 
-	UIAlertView *ljAlert = [[LoopJoyStore sharedInstance] getLJAlertForItem:18 withTitle:@"You just unlocked a new hat"
-andMessage:@"You're such a good sport" isCancelable:FALSE];
+	UIAlertView *ljAlert = [[LoopJoyStore sharedInstance] getLJAlertForItem:39 withTitle:@"Congratulations!" andMessage:@"You Unlocked an iPhone Case" isCancelable:FALSE];
 	//Note is cancelable dictates whether or not there is a “No Thanks” button that takes the user away from the LoopJoy Store
 
 To Get a LoopJoy Alert;
-	[ljAlert show]; Voila!
+
+	[ljAlert show]; 
+	
+Voila!
 
 Button types include
 
