@@ -44,6 +44,8 @@ typedef enum{
 typedef enum{
     LJ_MODAL_HORIZONTAL,
     LJ_MODAL_VERTICAL,
+    LJ_MODAL_HORIZONTAL_INVERSE,
+    LJ_MODAL_VERTICAL_INVERSE
 } LJModalOrientation;
 
 typedef enum{
@@ -84,6 +86,7 @@ typedef enum{
 -(UIAlertView *)getLJAlertForItem:(int)itemID withTitle:(NSString *)title andMessage:(NSString *)message isCancelable:(BOOL)cancelable;
 -(LJEnvironmentType)getEnvType;
 -(LJCancelButtonPosition)getCancelButtonPos;
+-(void)setModalOrientation:(LJModalOrientation)orientation;
 -(void)showModalForItem:(int)itemID;
 
 @end

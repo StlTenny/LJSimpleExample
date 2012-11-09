@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4119F309164D85F600D6F9FA /* libLJStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4119F307164D85F600D6F9FA /* libLJStore.a */; };
 		41AF0B0615E4C50300373E17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF0B0515E4C50300373E17 /* UIKit.framework */; };
 		41AF0B0815E4C50300373E17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF0B0715E4C50300373E17 /* Foundation.framework */; };
 		41AF0B1015E4C50300373E17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41AF0B0E15E4C50300373E17 /* InfoPlist.strings */; };
@@ -19,11 +20,12 @@
 		41AF0B2815E4C5AD00373E17 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF0B2715E4C5AD00373E17 /* CFNetwork.framework */; };
 		41AF0B2915E4C75700373E17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF0B0915E4C50300373E17 /* CoreGraphics.framework */; };
 		41AF0B2C15E4C82F00373E17 /* LJMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AF0B2B15E4C82F00373E17 /* LJMainViewController.m */; };
-		41BF303E1625E94E0080DFB7 /* libLJStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BF303C1625E94E0080DFB7 /* libLJStore.a */; };
 		41BF30401625E9530080DFB7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BF303F1625E9530080DFB7 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4119F307164D85F600D6F9FA /* libLJStore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLJStore.a; path = LoopJoyStore/libLJStore.a; sourceTree = SOURCE_ROOT; };
+		4119F308164D85F600D6F9FA /* LoopJoyStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoopJoyStore.h; path = LoopJoyStore/LoopJoyStore.h; sourceTree = SOURCE_ROOT; };
 		41AF0B0115E4C50300373E17 /* LJSimpleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJSimpleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41AF0B0515E4C50300373E17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		41AF0B0715E4C50300373E17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -41,8 +43,6 @@
 		41AF0B2715E4C5AD00373E17 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		41AF0B2A15E4C82F00373E17 /* LJMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJMainViewController.h; sourceTree = "<group>"; };
 		41AF0B2B15E4C82F00373E17 /* LJMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJMainViewController.m; sourceTree = "<group>"; };
-		41BF303C1625E94E0080DFB7 /* libLJStore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLJStore.a; path = LoopJoyStore/libLJStore.a; sourceTree = SOURCE_ROOT; };
-		41BF303D1625E94E0080DFB7 /* LoopJoyStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoopJoyStore.h; path = LoopJoyStore/LoopJoyStore.h; sourceTree = SOURCE_ROOT; };
 		41BF303F1625E9530080DFB7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,7 +59,7 @@
 				41AF0B2815E4C5AD00373E17 /* CFNetwork.framework in Frameworks */,
 				41AF0B0815E4C50300373E17 /* Foundation.framework in Frameworks */,
 				41AF0B2915E4C75700373E17 /* CoreGraphics.framework in Frameworks */,
-				41BF303E1625E94E0080DFB7 /* libLJStore.a in Frameworks */,
+				4119F309164D85F600D6F9FA /* libLJStore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,8 +113,8 @@
 		41AF0B0C15E4C50300373E17 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				41BF303C1625E94E0080DFB7 /* libLJStore.a */,
-				41BF303D1625E94E0080DFB7 /* LoopJoyStore.h */,
+				4119F307164D85F600D6F9FA /* libLJStore.a */,
+				4119F308164D85F600D6F9FA /* LoopJoyStore.h */,
 				41AF0B0D15E4C50300373E17 /* LJSimpleExample-Info.plist */,
 				41BF303F1625E9530080DFB7 /* Default-568h@2x.png */,
 				41AF0B0E15E4C50300373E17 /* InfoPlist.strings */,
