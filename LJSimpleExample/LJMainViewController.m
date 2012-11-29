@@ -31,8 +31,19 @@ static LJMainViewController *_sharedController = nil;
     containerView = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     containerView.backgroundColor= [UIColor grayColor];
 
+        //Make sure to change item number to one provided
+
+
+}
+
+-(void)showBuyNow{
     
     //Make sure to change item number to one provided
+    UIAlertView *ljAlert = [[LoopJoyStore sharedInstance] getLJAlertForItem:39
+                                                                  withTitle:@"You just unlocked a new hat"
+                                                                 andMessage:@"You're such a good sport"
+                                                               isCancelable:FALSE];
+    [ljAlert show];
     
     UIButton *buyNow;
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad){
@@ -41,7 +52,7 @@ static LJMainViewController *_sharedController = nil;
     else{
         buyNow = [[LoopJoyStore sharedInstance] getLJButtonForItem:39 withButtonType:LJ_BUTTON_IPHONE_BLUE];
     }
-
+    
     //Can be used to move the placement of the Loopjoy Button
     //CGRect frame = buyNow.frame;
     //frame.origin.x = 200;
@@ -50,7 +61,7 @@ static LJMainViewController *_sharedController = nil;
     
     
     [containerView addSubview:buyNow];
-
+    
 }
 
 - (void)viewDidLoad
@@ -58,14 +69,8 @@ static LJMainViewController *_sharedController = nil;
     [super viewDidLoad];
     [self.view addSubview:containerView];
     
-    //Make sure to change item number to one provided
-    UIAlertView *ljAlert = [[LoopJoyStore sharedInstance] getLJAlertForItem:39
-                                                                  withTitle:@"You just unlocked a new hat" 
-                                                                 andMessage:@"You're such a good sport" 
-                                                               isCancelable:FALSE];
-    [ljAlert show];
-    
-    
+    [self performSelector:@selector(showBuyNow) withObject:@"sleep 5 worked" afterDelay:1];
+
 }
 -(void)loadComplete{
     //Take any action once the LoopJoy library is loaded.

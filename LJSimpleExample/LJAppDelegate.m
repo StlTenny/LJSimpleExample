@@ -25,10 +25,10 @@
     self.window.rootViewController = controller;
     [self.window makeKeyAndVisible];
     
-    
+
     //Make sure to change api key to provided key
-    [LoopJoyStore initWithAPIKey:@"xNTbFpbbqekNAVYmQVj" forEnv:LJ_ENV_LIVE withTarget:[LJMainViewController sharedController]];
-    [[LoopJoyStore sharedInstance] setModalOrientation:LJ_MODAL_HORIZONTAL];
+    [LoopJoyStore initWithAPIKey:@"xNTbFpbbqekNAVYmQVj" forEnv:LJ_ENV_SANDBOX];
+    //[[LoopJoyStore sharedInstance] setModalOrientation:LJ_MODAL_HORIZONTAL];
     return YES;
     
 }
