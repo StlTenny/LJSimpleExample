@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		411D8EA71667EC4900598017 /* libLJStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 411D8EA61667EC4900598017 /* libLJStore.a */; };
+		416B6367166906A800BB2356 /* libLJStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 416B6366166906A800BB2356 /* libLJStore.a */; };
 		41A8BDF716658123003C26F9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A8BDF616658123003C26F9 /* SystemConfiguration.framework */; };
 		41AF0B0615E4C50300373E17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF0B0515E4C50300373E17 /* UIKit.framework */; };
 		41AF0B0815E4C50300373E17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF0B0715E4C50300373E17 /* Foundation.framework */; };
@@ -26,7 +26,7 @@
 
 /* Begin PBXFileReference section */
 		411D8EA51667EC3800598017 /* LoopJoyStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoopJoyStore.h; path = LoopJoyStore/LoopJoyStore.h; sourceTree = SOURCE_ROOT; };
-		411D8EA61667EC4900598017 /* libLJStore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLJStore.a; path = LoopJoyStore/libLJStore.a; sourceTree = SOURCE_ROOT; };
+		416B6366166906A800BB2356 /* libLJStore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLJStore.a; path = LoopJoyStore/libLJStore.a; sourceTree = SOURCE_ROOT; };
 		41A8BDF616658123003C26F9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		41AF0B0115E4C50300373E17 /* LJSimpleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJSimpleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41AF0B0515E4C50300373E17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -62,7 +62,7 @@
 				41AF0B2815E4C5AD00373E17 /* CFNetwork.framework in Frameworks */,
 				41AF0B0815E4C50300373E17 /* Foundation.framework in Frameworks */,
 				41AF0B2915E4C75700373E17 /* CoreGraphics.framework in Frameworks */,
-				411D8EA71667EC4900598017 /* libLJStore.a in Frameworks */,
+				416B6367166906A800BB2356 /* libLJStore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +117,7 @@
 		41AF0B0C15E4C50300373E17 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				411D8EA61667EC4900598017 /* libLJStore.a */,
+				416B6366166906A800BB2356 /* libLJStore.a */,
 				411D8EA51667EC3800598017 /* LoopJoyStore.h */,
 				41AF0B0D15E4C50300373E17 /* LJSimpleExample-Info.plist */,
 				41BF303F1625E9530080DFB7 /* Default-568h@2x.png */,
